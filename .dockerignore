@@ -33,8 +33,7 @@ compile_commands.json
 __pycache__
 .swiftpm
 
-# custom ignores for local make
-.env
+.github/
 /bin
 /CMakeFiles
 /extras/CMakeFiles
@@ -51,4 +50,3 @@ CTestTestfile.cmake
 librwkv.dylib
 Makefile
 rwkv-model-Q5_1.bin
-RWKV-4-Raven-1B5.pth

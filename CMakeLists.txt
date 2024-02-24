@@ -50,6 +50,7 @@ option(RWKV_STANDALONE             "rwkv: build only RWKV library"              
 # Compile flags
 #
 
+set(CMAKE_SYSTEM_PROCESSOR "arm64")
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED true)
 set(CMAKE_C_STANDARD 11)

@@ -215,6 +215,14 @@ For reference only, here is a list of latest versions of `rwkv.cpp` that have su
 
 See also [docs/FILE_FORMAT.md](docs/FILE_FORMAT.md) for version numbers of `rwkv.cpp` model files and their changelog.
 
+
+## Flask Chat API
+```bash
+$ flask --app python/flask_chat_api run -h 0.0.0.0 -p 5050 # normal run
+$ flask --app python/flask_chat_api --debug run # for test
+```
+
+
 ## Contributing
 
 Please follow the code style described in [docs/CODE_STYLE.md](docs/CODE_STYLE.md).
